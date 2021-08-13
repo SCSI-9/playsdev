@@ -1,7 +1,7 @@
-FROM ubuntu:20.04
+FROM ubuntu:18.04
 #Install nginx
 RUN  apt-get update
-RUN  apt-get install nginx -y
+RUN  apt install nginx -y
 #RUN  apt install apache2 libapache2-mod-fcgid -y
 #RUN  apt install software-properties-common -y
 #RUN  add-apt-repository ppa:ondrej/php -y
