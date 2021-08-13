@@ -14,7 +14,7 @@ RUN  apt install php7.3 php7.3-fpm -y
 RUN rm -f /etc/nginx/nginx.conf
 COPY nginx/nginx.conf /etc/nginx/nginx.conf
 RUN mkdir -p /var/www/html/web1
-RUN mkdir -p /var/www/html/web2
+#RUN mkdir -p /var/www/html/web2
 RUN mkdir -p /var/www/html/web3
 RUN mkdir -p /var/www/html/web4
 
