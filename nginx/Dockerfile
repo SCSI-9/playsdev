@@ -21,7 +21,7 @@ RUN mkdir -p /var/www/html/web4
 COPY web1/index.html /var/www/html/web1/index.html
 COPY web4/info.php /var/www/html/web4/info.php
 COPY web3/index.html /var/www/html/web3/index.html
-COPY web1/serega-cerniy bumer.mp3 /var/www/html/web1/serega-cerniy bumer.mp3
+COPY web1/serega-cerniy_bumer.mp3 /var/www/html/web1/serega-cerniy_bumer.mp3
 
 COPY ["start.sh", "/root/start.sh"]
 WORKDIR /root
